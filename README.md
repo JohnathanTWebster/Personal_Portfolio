@@ -1,2 +1,2 @@
-# Personal_Portfolio
-This is the code for my personal profile website
+# Personal Portfolio
+This is the code for my personal profile website.
