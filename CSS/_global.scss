@@ -4,9 +4,14 @@
 
 }
 
+body {
+    background-color: $bodyBackground;
+}
+
 header{
     display: flex;
     justify-content: space-evenly;
+    padding-top:10px;
 }
 
 
@@ -19,5 +24,21 @@ ul li {
 li,button{
     padding: 0px 5px;
     border-radius: 50px;
-    //color:
+    
+}
+
+button{
+    color:$buttonText;
+    background-color: $buttonBackground;
+    border:5px;
+    border-radius: 50px;
+    padding:5px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    color:$buttonBackground;
+    background-color: $buttonText;
+    
 }
