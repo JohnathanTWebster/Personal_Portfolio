@@ -39,5 +39,7 @@ button:hover {
   cursor: pointer;
   color: #7575a3;
   background-color: #f0f0f5;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 /*# sourceMappingURL=styles.css.map */
