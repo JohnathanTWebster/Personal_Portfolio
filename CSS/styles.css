@@ -4,17 +4,17 @@
 }
 
 body {
-  background-color: #85adad;
+  background-color: white;
 }
 
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
 }
 
 ul li {
@@ -41,5 +41,14 @@ button:hover {
   background-color: #f0f0f5;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+}
+
+.main-text {
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-text h2 {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

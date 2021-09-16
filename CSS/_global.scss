@@ -5,13 +5,14 @@
 }
 
 body {
-    background-color: $bodyBackground;
+    background-color: white;
 }
 
 header{
     display: flex;
-    justify-content: space-evenly;
-    padding-top:10px;
+    justify-content: space-between;
+    padding: 2rem;
+    
 }
 
 
@@ -44,3 +45,15 @@ button:hover{
     transition: 0.7s;
     
 }
+
+
+// Main body formatting 
+
+.main-text{
+    text-align: center;
+    padding: 2rem;
+}
+.main-text h2{
+    text-align: center;
+}
+
