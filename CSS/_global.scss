@@ -1,11 +1,11 @@
 * {
-    margin:0px;
-    padding: 0px;
-
+    margin: 0rem;
+    padding: 0rem;
 }
-
 body {
-    background-color: white;
+    background-color: rgb(255, 249, 249);
+    margin-left:2rem;
+    margin-right:2rem;
 }
 
 header{
@@ -56,4 +56,26 @@ button:hover{
 .main-text h2{
     text-align: center;
 }
+.main-text p{
+    text-align: center;    
+    margin: 2rem;
+}
 
+.main-text-container {
+    justify-content: center;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    padding: 2rem;
+}
+
+// Projects grid
+
+.projects-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    
+}
