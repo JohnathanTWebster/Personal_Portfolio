@@ -4,15 +4,22 @@
 }
 body {
     background-color: rgb(255, 249, 249);
-    margin-left:2rem;
-    margin-right:2rem;
+    margin-left:0rem;
+    margin-right:0rem;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    background-color: rgb(53, 53, 53);
     
+}
+
+header p {
+    font-size: 1.5rem;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -69,13 +76,17 @@ button:hover{
 }
 
 // Projects grid
-
+.projects-container{
+    border: 1px dotted blue;
+}
 .projects-grid{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-    
-    
+    justify-content: space-evenly; 
+    border: 1px dotted blue;
+}
+
+.projects-grid p {
+    border: 1px dotted red;
 }

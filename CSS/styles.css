@@ -5,8 +5,8 @@
 
 body {
   background-color: #fff9f9;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 header {
@@ -17,6 +17,13 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2rem;
+  background-color: #353535;
+}
+
+header p {
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 ul li {
@@ -68,6 +75,10 @@ button:hover {
   padding: 2rem;
 }
 
+.projects-container {
+  border: 1px dotted blue;
+}
+
 .projects-grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,5 +92,10 @@ button:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  border: 1px dotted blue;
+}
+
+.projects-grid p {
+  border: 1px dotted red;
 }
 /*# sourceMappingURL=styles.css.map */
