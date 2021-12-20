@@ -3,7 +3,7 @@
     padding: 0rem;
 }
 body {
-    background-color: rgb(255, 249, 249);
+    background-color: $bodyBackground;
     margin-left:0rem;
     margin-right:0rem;
 }
@@ -12,13 +12,13 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    background-color: rgb(53, 53, 53);
+    background-color: $navBar;
     
 }
 
 header p {
     font-size: 1.5rem;
-    color:white;
+    color:$textColor;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -36,7 +36,7 @@ li,button{
 }
 
 button{
-    color:$buttonText;
+    color:$textColor;
     background-color: $buttonBackground;
     border:5px;
     border-radius: 50px;
@@ -48,7 +48,7 @@ button{
 button:hover{
     cursor: pointer;
     color:$buttonBackground;
-    background-color: $buttonText;
+    background-color: $textColor;
     transition: 0.7s;
     
 }
@@ -57,6 +57,7 @@ button:hover{
 // Main body formatting 
 
 .main-text{
+    color: $textColor;
     text-align: center;
     padding: 2rem;
 }
@@ -80,6 +81,7 @@ button:hover{
     border: 1px dotted blue;
 }
 .projects-grid{
+    color: $textColor;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
