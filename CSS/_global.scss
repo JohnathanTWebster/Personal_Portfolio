@@ -8,7 +8,7 @@ body {
     margin-right:0rem;
 }
 
-header{
+header, footer{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -16,7 +16,7 @@ header{
     
 }
 
-header p {
+header p , footer p{
     font-size: 1.5rem;
     color:$textColor;
     font-family: 'Courier New', Courier, monospace;
