@@ -42,7 +42,7 @@ a {
   color: #000000;
   background-color: #00909E;
   border: 5px;
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 5px;
 }
 
@@ -52,6 +52,9 @@ a:hover {
   background-color: #000000;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+  border: 5px;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 li, button {
@@ -106,7 +109,14 @@ button:hover {
 }
 
 .projects-container {
-  border: 1px dotted blue;
+  border: 1px dotted black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .projects-grid {
@@ -114,15 +124,15 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: 1px dotted blue;
 }
 
