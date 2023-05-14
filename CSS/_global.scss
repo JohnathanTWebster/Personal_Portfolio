@@ -1,3 +1,5 @@
+// Main body default formatting
+
 * {
     margin: 0rem;
     padding: 0rem;
@@ -71,6 +73,14 @@ button:hover{
     background-color: $textColor;
     transition: 0.7s;
     
+}
+
+// Navigation bar formatting
+
+.logo-text{
+    color: $navTextColor;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
