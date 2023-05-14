@@ -33,7 +33,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: $textColor;
+    color: $buttonText;
     background-color: $buttonBackground;
     border:5px;
     border-radius: 20px;
@@ -46,26 +46,26 @@ a:hover{
     color:$bodyBackground;
     background-color: $textColor;
     transition: 0.7s;
-    border:5px;
-    border-radius: 20px;
-    padding:5px;
+    border:inherit;
+    border-radius: inherit;
+    padding:inherit;
 }
 
 
 li,button{
     
-    padding: 0px 5px;
+    padding: 0px 0px;
     border-radius: 50px;
     
 }
 
 button{
-    color:$textColor;
+    color:$buttonText;
     background-color: $buttonBackground;
-    border:5px;
-    border-radius: 50px;
+    border:0px;
+    border-radius: 25px;
     padding:5px;
-    
+    margin: 5px;
     
     
 }

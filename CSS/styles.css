@@ -39,7 +39,7 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #f0f0f5;
   background-color: #00909E;
   border: 5px;
   border-radius: 20px;
@@ -52,22 +52,23 @@ a:hover {
   background-color: #000000;
   -webkit-transition: 0.7s;
   transition: 0.7s;
-  border: 5px;
-  border-radius: 20px;
-  padding: 5px;
+  border: inherit;
+  border-radius: inherit;
+  padding: inherit;
 }
 
 li, button {
-  padding: 0px 5px;
+  padding: 0px 0px;
   border-radius: 50px;
 }
 
 button {
-  color: #000000;
+  color: #f0f0f5;
   background-color: #00909E;
-  border: 5px;
-  border-radius: 50px;
+  border: 0px;
+  border-radius: 25px;
   padding: 5px;
+  margin: 5px;
 }
 
 button:hover {
