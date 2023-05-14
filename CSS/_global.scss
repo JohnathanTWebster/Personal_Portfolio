@@ -1,18 +1,25 @@
 * {
-    margin:0px;
-    padding: 0px;
-
+    margin: 0rem;
+    padding: 0rem;
 }
-
 body {
-    background-color: white;
+    background-color: $bodyBackground;
+    margin-left:0rem;
+    margin-right:0rem;
 }
 
-header{
+header, footer{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    background-color: $navBar;
     
+}
+
+header p , footer p{
+    font-size: 1.5rem;
+    color:$textColor;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -31,7 +38,7 @@ li,button{
 }
 
 button{
-    color:$buttonText;
+    color:$textColor;
     background-color: $buttonBackground;
     border:5px;
     border-radius: 50px;
@@ -43,7 +50,7 @@ button{
 button:hover{
     cursor: pointer;
     color:$buttonBackground;
-    background-color: $buttonText;
+    background-color: $textColor;
     transition: 0.7s;
     
 }
@@ -52,10 +59,38 @@ button:hover{
 // Main body formatting 
 
 .main-text{
+    color: $textColor;
     text-align: center;
     padding: 2rem;
 }
 .main-text h2{
     text-align: center;
 }
+.main-text p{
+    text-align: center;    
+    margin: 2rem;
+}
 
+.main-text-container {
+    justify-content: center;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    padding: 2rem;
+}
+
+// Projects grid
+.projects-container{
+    border: 1px dotted blue;
+}
+.projects-grid{
+    color: $textColor;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    border: 1px dotted blue;
+}
+
+.projects-grid p {
+    border: 1px dotted red;
+}
