@@ -24,14 +24,31 @@ header p , footer p{
 
 
 ul li {
+
     list-style: none;
     float: left;
 }
 
-
+a {
+    text-decoration: none;
+    color: $textColor;
+    background-color: $buttonBackground;
+    border:5px;
+    border-radius: 50px;
+    padding:5px;
+    
+    
+}
+a:hover{
+    cursor: pointer;
+    color:$bodyBackground;
+    background-color: $textColor;
+    transition: 0.7s;
+}
 
 
 li,button{
+    
     padding: 0px 5px;
     border-radius: 50px;
     
@@ -45,11 +62,12 @@ button{
     padding:5px;
     
     
+    
 }
 
 button:hover{
     cursor: pointer;
-    color:$buttonBackground;
+    color:$bodyBackground;
     background-color: $textColor;
     transition: 0.7s;
     
@@ -77,6 +95,10 @@ button:hover{
     margin-left: 4rem;
     padding: 2rem;
 }
+
+
+
+
 
 // Projects grid
 .projects-container{

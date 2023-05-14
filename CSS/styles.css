@@ -10,7 +10,7 @@ $navBar: #393E46;
 }
 
 body {
-  background-color: #142850;
+  background-color: #ffffff;
   margin-left: 0rem;
   margin-right: 0rem;
 }
@@ -23,12 +23,12 @@ header, footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2rem;
-  background-color: #27496D;
+  background-color: #006B99;
 }
 
 header p, footer p {
   font-size: 1.5rem;
-  color: #DAE1E7;
+  color: #000000;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -37,13 +37,30 @@ ul li {
   float: left;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #00909E;
+  border: 5px;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #000000;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
 li, button {
   padding: 0px 5px;
   border-radius: 50px;
 }
 
 button {
-  color: #DAE1E7;
+  color: #000000;
   background-color: #00909E;
   border: 5px;
   border-radius: 50px;
@@ -52,14 +69,14 @@ button {
 
 button:hover {
   cursor: pointer;
-  color: #00909E;
-  background-color: #DAE1E7;
+  color: #ffffff;
+  background-color: #000000;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
 .main-text {
-  color: #DAE1E7;
+  color: #000000;
   text-align: center;
   padding: 2rem;
 }
@@ -87,7 +104,7 @@ button:hover {
 }
 
 .projects-grid {
-  color: #DAE1E7;
+  color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
