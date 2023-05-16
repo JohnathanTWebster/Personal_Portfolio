@@ -34,22 +34,13 @@ ul li {
 a {
     text-decoration: none;
     color: $buttonText;
-    background-color: $buttonBackground;
-    border:5px;
-    border-radius: 20px;
+    border:100%;
+    border-radius: 100%;
     padding:5px;
     
     
 }
-a:hover{
-    cursor: pointer;
-    color:$bodyBackground;
-    background-color: $textColor;
-    transition: 0.7s;
-    border:inherit;
-    border-radius: inherit;
-    padding:inherit;
-}
+
 
 
 li,button{
@@ -62,10 +53,10 @@ li,button{
 button{
     color:$buttonText;
     background-color: $buttonBackground;
-    border:0px;
-    border-radius: 25px;
+    border-radius: 50%;
     padding:5px;
     margin: 5px;
+    border: 1px;
     
     
 }
